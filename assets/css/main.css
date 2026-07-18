@@ -37,3 +37,22 @@ a{
 .list a {
       color:#3A3845;
 }
+.menu{
+    display:none;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+   
+
+    .list{
+        display:none;
+    }
+    .icons-hidden{
+        display:none;
+    }
+    .container{
+    width: calc(100% - 40px);
+ }
+ .menu{
+    display:block;
+ }
+}
