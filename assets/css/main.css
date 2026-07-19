@@ -142,6 +142,18 @@ margin-bottom:24px ;
       margin-bottom:24px ; 
        width:100%; 
     }
+    @media screen and (min-width:320px) and (max-width:599px){
+  
+        .item{
+    width:calc((100% - 40px)/2);
+   }
+    }
+    @media screen and (min-width:600px) and (max-width:991px) {
+        
+        .item{
+            width:calc((100% - 30px )/2);
+        }
+    }
 
 
 
